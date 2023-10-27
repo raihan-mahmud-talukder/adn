@@ -1,9 +1,11 @@
-import { Home } from "./Components/Home"
+import { Content } from "./Content"
+import { Header } from "./Header"
 
-export const App = () => {
+export const Body = () => {
     return (
-        <div className="app">
-            <Home />
-        </div>
+        <main>
+            <Header />
+            <Content />
+        </main>
     )
 }
